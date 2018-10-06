@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <script src="index.js"></script> -->
+</head>
+
+<body>
+    <div class="total-file">
+        <input type="text" onsubmit="">
+        <button onsubmit=" me()">button</button>
+
+    </div>
+    <script>
+        function me() {
+
+        
+        var x = "";
+        if (2 > x < 22) {
+            alert("elert another field");
+        } else {
+            alert('user name should more than two latters')
+        }
+        }
+    </script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>THIS IS MY NEW FORM PAGE</h1>
+        <form name="newForm" onsubmit="return validation()" method="POST">
+            <input type="text" name="name"><br><br>
+            <input type="submit" value=" click here!">
+        </form>
+        <script>
+            function validation() {
+                var Name = "document.newForm.name.value";
+                if (5 > Name.length < 22) {
+                    alert("name should be 5 to 22 charecters")
+                    return false;
+                }
+            }
+        </script>
+
+</body>
+
+</html>
